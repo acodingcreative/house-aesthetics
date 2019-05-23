@@ -1,0 +1,104 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<div id="page-container">
+  <!--Header Section-->
+  <header id="header">
+    <div class="header-logo">
+      <img id="header-img" src="#" alt="House Aesthetics Logo"/>
+    </div>
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#services">Services</a></li>
+        <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--Sign Up Section-->
+  <section id="hero">
+    <img id="img-logo" src="#" alt="House Aesthetics Promotional Logo"/>
+    <h1>House Aesthetics</h1>
+    <p id="subtitle">For you belong in...</p>
+    <p>Tell us your House and Electronic Owl Address to get started today:</p>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <select name="house">
+        <option value="gryffindor">Gryffindor</option>
+        <option value="hufflepuff">Hufflepuff</option>
+        <option value="ravenclaw">Ravenclaw</option>
+        <option value="slytherin">Slytherin</option> 
+      </select><br><br>
+      <input type="email" name="email" id="email" placeholder="Electronic Owl Address Here!" required><br><br>
+      <input type="submit" id="submit" value="Accio Aesthetics!">
+    </form>
+  </section>
+  <!--Main Content-->
+  <div class="container">
+    <!--Services-->
+    <section id="services">
+      <h2>Rep Your House Online With House Aesthetics</h2>
+      <h3>Find House-themed images to jazz up your social media pages</h3>
+      <img src="#">
+      <p>Here at House Aesthetics we find the images to match your aesthetic so you don't have to. Whether you're a Slytherin or a Hufflepuff, there's no longer any excuse for your feed to not represent your House. These stockphotos all come with the Creative Commons Licence and they're all yours to download and use. Find a stockphoto from another House that you like but want tailered to be entirely your own? We also offer individual customisations - all for the price of a Butterbeer</p>
+      <h3>Get inspired with the perfect wallpaper for your new devices</h3>
+      <img src="#">
+      <p>So you've saved up every Galleon and now you have a brand new device that's all yours - except there's something missing. It's missing those House colours that we all love so much. House Aesthetics has you covered! We have an ever-growing library of wallpapers perfect for every device, from desktop to mobile. All you have to do is choose, download, and sit back and enjoy!</p>
+      <h3>Receive monthly customised House Packs tailored to your House</h3>
+      <img src="#">
+      <p>Is repping your House not enough? Want something tailored entirely to you to stand out from the pack? Then you need our House Packs! Tailored to you by one of HA Specialists, you can rest assurred that no-one else will have the same images as you. Can you really put a price on individuality?</p>
+    </section>
+    <!--How It Works-->
+    <section id="how-it-works">
+      <h2>How It All Works</h2>
+      <p>Watch this short video to better understand how House Aesthetics can work for you:</p>
+      <iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen>
+      </iframe>
+    </section>
+    <!--Pricing-->
+    <section id="pricing">
+      <h2>Don't want to break the bank?</h2>
+      <p>We wouldn't want you to! At House Aestethetics we know that feeling of having to scrape every Knut together to stay afloat. That's why our Stockphotos and Wallpaper Galleries are free for everyone to use! Fancy that extra bit of customisation? It still won't break the bank (no dragons here!). Don't believe us - check out the amazing prices below!</p>
+      <div id="stockphotos">
+        <div class="p-head">FREE</div>
+        <h2>Curated Stockphotos</h2>
+        <ol>
+          <li>HA curated stockphotos for every House</li>
+          <li>All with Creative Commons License 2.0</li>
+          <li>Once downloaded, free to use and/or customise as you wish</li>
+          <li>Customisation services available for the price of a Butterbeer</li>
+        </ol>
+        <button class="btn">Yes please!</button>
+      </div>
+      <div id="wallpapers">
+        <div class="p-head">FREE</div>
+        <h2>Wallpapers for every House Aesthetic</h2>
+        <ol>
+          <li>For every size screen</li>
+          <li>For every taste</li>
+          <li>Completely free</li>
+          <li>(...unless you want it personally customised just for you)</li>
+        </ol>
+        <button class="btn">Yes please!</button>
+      </div>
+      <div id="house-packs">
+        <div class="p-head">Starting from 1 Galleon (£5 for Muggles)</div>
+        <h2>Personalised House Packs</h2>
+        <ol>
+          <li>Delivered straight to your inbox every month</li>
+          <li>Free consultation with a HA specialist to determine your needs</li>
+          <li>A mix of images and wallpapers tailored to you</li>
+          <li>Easy to cancel, change or upgrade</li>
+        </ol>
+        <button class="btn">Yes please!</button>
+      </div>
+    </section>
+    <!--Footer-->
+    <section id="footer>">
+      <ul>
+      <li><a href="#">The Legal Stuff</a></li>
+      <li><a href="#">FAQ's</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+    <span>&copy; 2019, House Aesthetics</span>
+    </section>
+  </div>
+</div>
